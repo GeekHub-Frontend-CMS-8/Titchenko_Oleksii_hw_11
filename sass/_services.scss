@@ -1,0 +1,60 @@
+.services-wrap {
+  background: url(../img/services/background-services.jpg)no-repeat;
+  background-size: cover;
+}
+.services-container {
+  max-width: 1170px;
+  margin: auto;
+}
+.services-text {
+  text-align: center;
+  color: #f5f5f5;
+}
+.services-paragraph {
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+  color: #cfcfcf;
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 1.4px;
+}
+
+.services-block-wrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* не wrap-ится ?!*/
+  align-items: baseline;
+}
+fieldset {
+  border: 2px solid #d8d8d8;
+  margin: 17px;
+}
+.services-block{
+  width: 25%;
+  text-align: center;
+  color: #d8d8d8;
+}
+.services-block-icon {
+  padding: 15px;
+}
+.services-block-header {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.47px;
+}
+.services-block-paragraph {
+  color: #d8d8d8;
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.31px;
+  /* Text style for "L, orem ip" */
+  letter-spacing: 1.4px;
+  padding: 30px;
+}

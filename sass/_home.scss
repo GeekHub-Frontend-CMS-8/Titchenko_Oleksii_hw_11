@@ -1,0 +1,61 @@
+.home {
+  background-image: url(../img/home/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+
+}
+.home-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.home-text-paragraf p {
+  text-align: center;
+  color: #ffffff;
+  font-family: Crimson Text - Roman;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 1.4px;
+}
+h1 {
+    /* Style for "WE ARE ATL" */
+  color: #ffffff;
+  /*font-family: Amsdam;*/
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 200.4px;
+  text-transform: uppercase;
+  letter-spacing: 0.89px;
+  margin: auto;
+}
+.home-button {
+  max-width: 260px;
+  max-height: 80px;
+  border: 2px solid #f2f2f2;
+  background-color: transparent;
+  padding: 15px 25px 15px 25px;
+  margin: auto;
+  display: block;
+  align-items: center;
+  /* Text style for "Get Starte" */
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 1.5px;
+}
+@media screen and (max-width: 500px) {
+
+  .home-text-paragraf p {
+    text-align: center;
+    font-size: 14px ;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}

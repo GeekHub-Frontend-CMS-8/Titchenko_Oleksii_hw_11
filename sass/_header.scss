@@ -1,0 +1,70 @@
+.header .top-menu ul {
+  display: flex;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap; /*перенос строки */
+  justify-content: space-between; /*прижимает содержимое к краям */
+  align-items: center; /*выравнивает элементы по центру на вертикальной */
+  margin: auto;
+  background-color: #ffffff;
+  opacity: 0.5;
+  /*padding-left: 10%;*/
+  padding-right: 50%;
+  position: fixed;
+  width: 100%;
+}
+
+.header .logo {
+  padding-left: 15%;
+
+}
+
+.header .top-menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.header .top-menu ul li {
+  margin: 20px 10px;
+}
+
+.header .top-menu ul a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #aaaaaa;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.social-icon {
+  display: inline-flex;
+  padding-right: 5%;
+  .fa {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .social-icon {
+    margin: auto;
+  }
+  .logo {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header  {
+    flex-direction: column;
+  }
+  .header .top-menu ul {
+    flex-direction: column;
+    align-self: center;
+  }
+  .header .top-menu ul li {
+    margin: 2px;
+  }
+/*burger menu*/
+}

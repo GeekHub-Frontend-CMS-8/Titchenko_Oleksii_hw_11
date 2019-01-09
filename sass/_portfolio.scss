@@ -1,0 +1,35 @@
+.portfolio-wrap {
+  background-color: #ffffff;
+}
+.portfolio-container {
+  width: 100%;
+  align-content: center;
+  text-align: center;
+  padding: 70px auto 0;
+  margin: auto;
+}
+.portfolio-button {
+  padding: 5px 45px;
+  border: 2px solid #3e3d3d;
+  color: #3e3d3d;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44.32px;
+  text-transform: uppercase;
+  /* Text style for "BROCHURES" */
+  letter-spacing: 1.24px;
+}
+.portfolio-button:hover {
+  background-color: #3e3d3d;
+  color:#ededed ;
+}
+.portfolio-gallery {
+
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: stretch;
+  align-items: stretch;
+}
