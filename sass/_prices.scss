@@ -1,0 +1,46 @@
+.prices-wrap {
+  background-color: #e3e3e3;
+}
+.prices-container {
+  max-width: 1170px;
+  text-align: center;
+  margin: auto;
+}
+.prices-paragraph {
+  color: #3e3d3d;
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  /* Text style for "N, ullam l" */
+  letter-spacing: 1.4px;
+  padding-top: 50px;
+}
+.prices-block-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.prices-block-item {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  width: 28%;
+  margin: 2%;
+}
+.line {
+  display: inline-flex;
+  flex-direction: row;
+}
+.line-price {
+  border: 1px solid #3e3d3d;
+  width: 1px;
+  display: flex;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border:1px solid #3e3d3d;
+}
+

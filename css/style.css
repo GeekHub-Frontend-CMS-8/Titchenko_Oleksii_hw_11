@@ -781,6 +781,9 @@ time {
   padding: 70px auto 0;
   margin: auto; }
 
+.about-paragraph {
+  max-width: 1170px; }
+
 .portfolio-button {
   padding: 5px 45px;
   border: 2px solid #3e3d3d;
@@ -797,9 +800,69 @@ time {
   background-color: #3e3d3d;
   color: #ededed; }
 
-.portfolio-gallery {
+.portfolio-gallery2 {
   padding-top: 60px;
-  display: grid;
+  -moz-column-count: 4;
+  /* Firefox */
+  -webkit-column-count: 4;
+  /* Safari и Chrome */
+  column-count: 4;
+  column-rule-style: none;
+  flex-wrap: wrap;
+  -webkit-column-gap: 0;
+  /* Chrome, Safari, Opera */
+  -moz-column-gap: 0;
+  /* Firefox */
+  column-gap: 0;
+  display: block;
+  flex-direction: column; }
+
+.item-portfolio {
+  display: flex;
   margin: 0;
-  grid-template-columns: repeat(auto-fill, 395px);
-  grid-template-rows: auto; }
+  width: 100%; }
+
+.prices-wrap {
+  background-color: #e3e3e3; }
+
+.prices-container {
+  max-width: 1170px;
+  text-align: center;
+  margin: auto; }
+
+.prices-paragraph {
+  color: #3e3d3d;
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  /* Text style for "N, ullam l" */
+  letter-spacing: 1.4px;
+  padding-top: 50px; }
+
+.prices-block-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.prices-block-item {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  width: 28%;
+  margin: 2%; }
+
+.line {
+  display: inline-flex;
+  flex-direction: row; }
+
+.line-price {
+  border: 1px solid #3e3d3d;
+  width: 1px;
+  display: flex; }
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #3e3d3d; }

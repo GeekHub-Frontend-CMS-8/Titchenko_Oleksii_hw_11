@@ -8,6 +8,9 @@
   padding: 70px auto 0;
   margin: auto;
 }
+.about-paragraph {
+  max-width: 1170px;
+}
 .portfolio-button {
   padding: 5px 45px;
   border: 2px solid #3e3d3d;
@@ -22,13 +25,23 @@
 }
 .portfolio-button:hover {
   background-color: #3e3d3d;
-  color:#ededed ;
+  color:#ededed;
 }
-.portfolio-gallery {
-
+.portfolio-gallery2 {
   padding-top: 60px;
-  display: grid;
+  -moz-column-count:4; /* Firefox */
+  -webkit-column-count:4; /* Safari и Chrome */
+  column-count:4;
+  column-rule-style: none;
+  flex-wrap: wrap;
+  -webkit-column-gap: 0; /* Chrome, Safari, Opera */
+  -moz-column-gap: 0; /* Firefox */
+  column-gap: 0;
+  display: block;
+  flex-direction: column;
+ }
+.item-portfolio {
+  display: flex;
   margin: 0;
-  grid-template-columns: repeat(auto-fill, 395px);
-  grid-template-rows: auto;
+  width: 100%;
 }
