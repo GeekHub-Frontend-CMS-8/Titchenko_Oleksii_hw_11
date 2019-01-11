@@ -969,3 +969,20 @@ time {
   background-color: #e3e3e3;
   border-color: #2d2d2f;
   color: #2d2d2f; }
+
+.blog-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0;
+  width: 100%; }
+
+.blog-gallery-block {
+  display: block;
+  flex-direction: column;
+  background-color: #2d2d2f;
+  color: #8f8f8f;
+  max-width: 23%;
+  height: auto;
+  padding: 40px;
+  margin: 0; }
