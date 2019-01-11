@@ -1,0 +1,49 @@
+.looking-wrap {
+  background-color: #2d2d2f;
+  color: #ededed;
+}
+.looking-container {
+  max-width: 1170px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: baseline;
+}
+.looking-image {
+  display: flex;
+  margin: auto;
+}
+.looking-wrap-text {
+  margin: auto;
+  padding-left: 2%;
+}
+.looking-text {
+  color: #d8d8d8;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+  /* Text style for "Looking fo" */
+  letter-spacing: 1.81px;
+  padding-bottom: 5px;
+}
+.looking-paragraph {
+  color: #888888;
+  font-family: "Crimson Text";
+  font-size: 16px;
+  font-style: italic;
+  line-height: 20px;
+  max-width: 80%;
+}
+.kompass-button {
+  background-color: #2d2d2f;
+  border-color: #e3e3e3;
+  color: #e3e3e3;
+  margin: auto;
+}
+.kompass-button:hover {
+  background-color: #e3e3e3;
+  border-color: #2d2d2f;
+  color: #2d2d2f;
+}
+
